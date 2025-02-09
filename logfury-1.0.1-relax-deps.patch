@@ -1,0 +1,11 @@
+diff -up logfury-1.0.1/setup.py.omv~ logfury-1.0.1/setup.py
+--- logfury-1.0.1/setup.py.omv~	2025-02-09 22:06:16.960780331 +0100
++++ logfury-1.0.1/setup.py	2025-02-09 22:06:28.946439205 +0100
+@@ -72,6 +72,6 @@ setup(
+     classifiers      = CLASSIFIERS,
+     package_data     = {NAME: ['requirements.txt', 'LICENSE']},
+ 
+-    setup_requires   = ['setuptools_scm<6.0'],  # setuptools_scm>=6.0 doesn't support Python 3.5
++    setup_requires   = ['setuptools_scm'],
+     use_scm_version  = True,
+ )  # yapf: disable
